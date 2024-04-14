@@ -1,0 +1,25 @@
+$ mkdir SI_2024_lab1_223228
+$ cd SI_2024_223228
+$ git init
+$ git remote add origin https://github.com/jovanamickovikj/SI_2024_lab1_223228.git
+$ echo "# Име Презиме\n- Име: Jована\n- Презиме: Мицковиќ\n- Број на индекс: 223228" > README.md
+$ git add README.md
+$ git config --global user.email "jovanamickovik9@gmail.com"
+$ git config --global user.name "Jovana Mickovikj"
+$ git commit -m "Initial commit"
+$ mv /c/Users/User/Downloads/SILab1Main.java .
+$ mv /c/Users/User/Downloads/SILab1_1.java .
+$ mv /c/Users/User/Downloads/SILab1_2.java .
+$ git add .
+$ git commit -m "Add starter code"
+$ git pull origin master
+$ git push origin --all
+$ git chekout -b bug1
+$ git checkout -b bug2
+$ git log > logs.txt
+$ nano 223228.txt
+$ add logs.txt 223228.txt
+$ git commit -m "Final commit"
+$ git pull origin master
+$ git push --all
+
